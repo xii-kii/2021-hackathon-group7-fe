@@ -8,8 +8,9 @@ import Logo from '../../img/Login_logo.png'
 
 
 export default class BindEmail extends Component {
-  //鉴权
-  componentDidMount() {
+  鉴权
+    componentDidMount() {
+    //如果没有拿到 token
     if (!localStorage.getItem('token')) {
       this.props.history.push('/tudo/login')
     }
@@ -244,3 +245,4 @@ export default class BindEmail extends Component {
       )
     }
 }
+
