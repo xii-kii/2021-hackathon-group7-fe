@@ -78,6 +78,7 @@ html {
 }
 
 .smallLink_div {
+  margin-top: 10px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -85,7 +86,7 @@ html {
 
 .smallLink {
   height: auto;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   color: rgb(55, 179, 156)
 }
 

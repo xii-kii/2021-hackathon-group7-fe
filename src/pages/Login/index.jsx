@@ -116,7 +116,7 @@ export default class Login extends Component {
           <img className={styles.logo} src={Logo} alt="loginLogo" />
           <input type="text" className={styles.InputUser} placeholder="请输入邮箱/账号" onChange={this.getUsername} />
           <input type="password" className={styles.InputPassword} placeholder="请输入密码" onChange={this.getPassword} />
-          <div className={styles.smallLink_div}><span className={styles.smallLink}>忘记密码&nbsp;&nbsp;|&nbsp;&nbsp;</span><span className={styles.smallLink} onClick={this.To_Register}>新用户注册</span></div>
+          <div className={styles.smallLink_div}><span className={styles.smallLink}>忘记密码&nbsp;&nbsp;&nbsp;</span><span className={styles.smallLink} onClick={this.To_Register}>新用户注册</span></div>
           {this.state.loading ? <Loading /> : null}
           <button className={styles.loginButton} onClick={this.loginHandler}>登录</button>
           <ToastContainer
